@@ -24,6 +24,7 @@ print(mathOp(a: 1, b: 2, fn: { (a: Int, b: Int)  -> Int in a + b
 
 // As function is the last argument for mathOp, we could also use this syntax when calling mathOp
 // This is called trailing closure. It's extensively used in views
+// "in" is a keyword here used in closures
 print(mathOp(a: 1, b: 2) { (a: Int, b: Int)  -> Int in a + b
 })
 
